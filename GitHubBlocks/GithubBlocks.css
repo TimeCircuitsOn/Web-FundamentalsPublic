@@ -1,0 +1,39 @@
+.container {
+    width: 800px;
+    margin: 0px auto;
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+.middle{
+    background-color: pink;
+    justify-content: space-evenly;
+}
+
+.top{
+    background-color: lightblue;
+}
+
+.bottom{
+    background-color: white;
+}
+
+img.octocat{
+    height: 200px;
+}
