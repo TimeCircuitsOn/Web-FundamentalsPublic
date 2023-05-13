@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: trebuchet ms;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top {
+    background-color: rgb(166, 165, 165);
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.search {
+    flex: 1;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 0 100px;
+}
+
+.login-button {
+    font-size: 18px;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    background-color: rgb(20, 96, 237);
+    color: white;
+}
+
+.content { 
+    display: flex; 
+}
+
+.col-1 { 
+    flex: 2; 
+}
+
+.box-def {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.left p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.def-text {
+    flex: 3;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.like-button {
+    background-color: rgb(252, 210, 58);
+    font-size: 18px;
+    padding: 5px 15px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.col-2 { 
+    flex: 1; 
+    margin-left: 30px;
+}
+
+.box {
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.box p {
+    font-size: 28px;
+}
+
+.add-button {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    background-color: rgb(105, 179, 105);
+    color: black;
+}
+
+a {
+    color: rgb(51, 95, 177);
+}
